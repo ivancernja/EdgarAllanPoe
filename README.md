@@ -8,4 +8,4 @@ Load more script coded in JQ which parses +9 thumbnails/information from the Goo
 
 Typing animation of the header text made with CSS.
 
-![screenshot]('http://i.imgur.com/PtlqEGT.jpg')
+![screenshot](http://i.imgur.com/PtlqEGT.jpg)
