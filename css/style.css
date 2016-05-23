@@ -1,0 +1,68 @@
+    @keyframes type{ 
+  from { width: 0; }
+}
+
+body {
+	margin: 0;
+	  background: url(../img/bg1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+h1 { 
+	font-family: 'Poitret One', cursive;
+
+}
+
+#typing-font p {
+	font-family: 'Poiret One', cursive;
+	font-size: 80px;
+	position: absolute; /* or absolute */
+  	top: 0;
+  	left: 50%;
+  	white-space: nowrap;
+ 	overflow: hidden;
+  	transform: translate(-50%, -50%);
+  	animation: type 1s steps(60, end); 
+  	width: 6.9em;
+  	background-color: #000;
+  	color: gray;
+}
+
+#book-shelf {
+	top: 15%;
+	position: absolute;
+	left: 26%;
+	text-align: center;
+	width: 800px;;
+}
+
+#book-shelf img {
+	border: 5px solid rgba(0,0,0,0);
+    margin: 0 auto; 
+}
+
+#load {
+	bottom: 0;
+    position: absolute;
+    top:100%;
+    left:50%;
+    margin-left:-50px
+}
+
+#load h1 {
+	font-family: 'Poitret One', cursive;
+	font-size: 50px;
+	white-space: nowrap;
+ 	overflow: hidden;
+ 	background-color: #000;
+  	color: gray;
+  	bottom: 0;
+  	left: 50%;
+  	margin-left:-100px;
+  	cursor: pointer;
+}
