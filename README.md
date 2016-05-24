@@ -8,4 +8,6 @@ Load more script coded in JQ which parses +9 thumbnails/information from the Goo
 
 Typing animation of the header text made with CSS.
 
+To do: content filters, minor fixes, RWD.
+
 ![screenshot](http://i.imgur.com/PtlqEGT.jpg)
